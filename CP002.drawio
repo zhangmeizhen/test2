@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T06:33:08.214Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" etag="f1LLKhhGSJjOB9MuxnUK" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T10:45:38.452Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" etag="jk75frPBnFOgMmkL7Xvv" version="14.4.9" type="github">
   <diagram id="YToW3ZiEYrnMZ0O9tIVD" name="Page-1">
     <mxGraphModel dx="1033" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
           <mxGeometry x="590" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="u4m2MLZhQ03Ph_YlwbyS-17" value="struct APP_EVENT" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="520" width="120" height="30" as="geometry" />
+          <mxGeometry x="610" y="485" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u4m2MLZhQ03Ph_YlwbyS-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -176,8 +176,8 @@
         <mxCell id="HwYGFUVXpFk0HRlhBR51-34" value="主动链接TCP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="845" y="320" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HwYGFUVXpFk0HRlhBR51-38" value="主动登录注册服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="440" width="120" height="20" as="geometry" />
+        <mxCell id="HwYGFUVXpFk0HRlhBR51-38" value="主动登录注册服务器&lt;br&gt;及定时上报位置信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="435" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
