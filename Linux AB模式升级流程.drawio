@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T13:53:05.941Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.8.0" etag="L82pzWszOvg6T0EBYJ3G" type="github"><diagram id="0DUNiS1PSIFewmUJW05M">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-25T07:10:42.006Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="6F8niWrGUgwrT2FQFwfJ" version="14.8.0" type="github">
+  <diagram id="0DUNiS1PSIFewmUJW05M" name="Page-1">
+    <mxGraphModel dx="1035" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B9h5EF74KLerB_Fzpa6o-1" target="B9h5EF74KLerB_Fzpa6o-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-1" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 18px ; line-height: 24px&quot;&gt;part_get_info_by_name&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B9h5EF74KLerB_Fzpa6o-2" target="B9h5EF74KLerB_Fzpa6o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-2" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 18px ; line-height: 24px&quot;&gt;rk_avb_append_part_slot&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B9h5EF74KLerB_Fzpa6o-4" target="B9h5EF74KLerB_Fzpa6o-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-4" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 18px ; line-height: 24px&quot;&gt;rk_avb_get_current_slot&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="230" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B9h5EF74KLerB_Fzpa6o-6" target="B9h5EF74KLerB_Fzpa6o-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-6" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 18px ; line-height: 24px&quot;&gt;rk_avb_ab_slot_select&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B9h5EF74KLerB_Fzpa6o-10" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;droid sans mono&amp;#34; , monospace , monospace , &amp;#34;droid sans fallback&amp;#34; ; font-size: 18px ; line-height: 24px&quot;&gt;avb_ab_data_read&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
