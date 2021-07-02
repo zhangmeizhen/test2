@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T06:27:17.084Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ecnjRH_Rjdod04WiaE-h" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T06:33:33.917Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="5kv30DjDc5wdV0f_9hN4" version="14.8.2" type="github">
   <diagram id="GXnI0iMTj2cHC1lOnszO" name="Page-1">
     <mxGraphModel dx="1862" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,9 +127,6 @@
         <mxCell id="JdYMFB5UEBQZJn8opRw6-44" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;take&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="310" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JdYMFB5UEBQZJn8opRw6-48" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;sendShowData&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="310" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="JdYMFB5UEBQZJn8opRw6-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JdYMFB5UEBQZJn8opRw6-49" target="vF5ghhq5Yg48Jj5as7LA-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -191,13 +188,31 @@
           <mxGeometry x="1010" y="310" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JdYMFB5UEBQZJn8opRw6-70" value="串口服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="1400" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JdYMFB5UEBQZJn8opRw6-72" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;sendSerialOrder&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="310" width="110" height="50" as="geometry" />
+          <mxGeometry x="1280" y="310" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JdYMFB5UEBQZJn8opRw6-73" value="AIDL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1300" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JdYMFB5UEBQZJn8opRw6-74" value="数据库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdYMFB5UEBQZJn8opRw6-75" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vF5ghhq5Yg48Jj5as7LA-8" target="JdYMFB5UEBQZJn8opRw6-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdYMFB5UEBQZJn8opRw6-76" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;saveToDBManager&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="395" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JdYMFB5UEBQZJn8opRw6-80" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;sendShowData&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="345" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JdYMFB5UEBQZJn8opRw6-81" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280" y="510" as="sourcePoint" />
+            <mxPoint x="1280" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
