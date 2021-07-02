@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T08:05:01.452Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="WWI8UP0lYm0XPnM5ZXZ8" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T09:24:21.519Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="6NQTty4xiibIRb18ZMqT" version="14.8.2" type="github">
   <diagram id="GXnI0iMTj2cHC1lOnszO" name="Page-1">
     <mxGraphModel dx="1862" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -222,6 +222,12 @@
         </mxCell>
         <mxCell id="JdYMFB5UEBQZJn8opRw6-95" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;mSerialBean&lt;/span&gt;&lt;/pre&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdYMFB5UEBQZJn8opRw6-99" value="类实例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JdYMFB5UEBQZJn8opRw6-100" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;JSONObject&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="135" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
