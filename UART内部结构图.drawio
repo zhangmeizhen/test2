@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T13:51:44.961Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" version="14.9.6" etag="lJQccIuvzZ6mQb_pMzBr" type="github"><diagram id="MrFPXBWa-0lusR1MyuGh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-17T06:59:49.406Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="BZsKHZKaaAnYQnMaZBa7" version="14.9.6" type="github">
+  <diagram id="MrFPXBWa-0lusR1MyuGh" name="Page-1">
+    <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="exS5Mzwlh3BIqeB94Q74-1" target="exS5Mzwlh3BIqeB94Q74-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-1" value="移位寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-5" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="190" as="sourcePoint" />
+            <mxPoint x="580" y="189.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-6" value="GPIO复用功能输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-7" value="输入缓冲寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="exS5Mzwlh3BIqeB94Q74-12" target="exS5Mzwlh3BIqeB94Q74-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-12" value="输出缓冲寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-13" value="移位寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="319.5" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-16" value="GPIO复用功能输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="290" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-18" value="RX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="180" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-19" value="TX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="310" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="exS5Mzwlh3BIqeB94Q74-20" target="exS5Mzwlh3BIqeB94Q74-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="exS5Mzwlh3BIqeB94Q74-20" target="exS5Mzwlh3BIqeB94Q74-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="exS5Mzwlh3BIqeB94Q74-20" target="exS5Mzwlh3BIqeB94Q74-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="exS5Mzwlh3BIqeB94Q74-20" value="波特率发生器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
