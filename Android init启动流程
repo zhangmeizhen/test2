@@ -1,44 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T04:16:01.295Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="FUozSPy0DzicV_5lbq8K" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T06:54:09.874Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="fqTglVyRoHKGEBKvTj-U" version="17.4.0" type="github">
   <diagram id="JZRc0-2f4Ee6M4zPl6Xn" name="Page-1">
-    <mxGraphModel dx="1355" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2182" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="oVrp1AIFAzBfgihcBw3G-3" target="oVrp1AIFAzBfgihcBw3G-4">
+        <mxCell id="oVrp1AIFAzBfgihcBw3G-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="280" as="sourcePoint" />
+            <mxPoint x="80" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oVrp1AIFAzBfgihcBw3G-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="450" as="sourcePoint" />
+            <mxPoint x="80" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oVrp1AIFAzBfgihcBw3G-10" value="main.cpp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oVrp1AIFAzBfgihcBw3G-11" value="first_stage_init.cpp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="430" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oVrp1AIFAzBfgihcBw3G-12" value="system/core/init" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oVrp1AIFAzBfgihcBw3G-13" value="selinux.cpp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="600" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oVrp1AIFAzBfgihcBw3G-14" value="init.cpp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="860" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="380" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-2" value="1,设置PATH&lt;br&gt;2,挂载/dev tmpfs, /proc/ tempfs, /sys sysfs,/mnt tmpfs等&lt;br&gt;&amp;nbsp; &amp;nbsp;和创建相应目录，&lt;br&gt;3,读取cmdline /proc/cmdline.&lt;br&gt;4,初始化mtklog&lt;br&gt;4,LoadKernelModules加载/lib/modules内核模块&lt;br&gt;5,是否启动console&lt;br&gt;6,DoFirstStageMount加载分区&lt;br&gt;7," style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="375" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="410" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-6" value="1,InitDevices&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;2,MountPartitions&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;main&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-8" value="&lt;span style=&quot;font-size: 14px&quot;&gt;FirstStageMain&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="420" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZkkCYOD8dUmzHxpQoQWX-9" target="ZkkCYOD8dUmzHxpQoQWX-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-3" value="main" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="55" y="260" width="50" height="20" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-9" value="&lt;span style=&quot;font-size: 14px&quot;&gt;SetupSelinux&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="590" width="115" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="oVrp1AIFAzBfgihcBw3G-4" target="oVrp1AIFAzBfgihcBw3G-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-10" value="&lt;span style=&quot;font-size: 14px&quot;&gt;SecondStageMain&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="12.5" y="850" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-4" value="FirstStageMain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="240" y="260" width="110" height="20" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-11" value="&lt;span style=&quot;text-align: left&quot;&gt;DoFirstStageMount&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="450" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="oVrp1AIFAzBfgihcBw3G-6" target="oVrp1AIFAzBfgihcBw3G-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="550" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-6" value="SetupSelinux" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="490" y="260" width="100" height="20" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-15" value="&lt;div&gt;&lt;span&gt;1,初始化mtklog&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2,挂载miss分区&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3,&lt;/span&gt;&lt;span&gt;SelinuxInitialize&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="586" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-8" value="SecondStageMain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="750" y="260" width="130" height="20" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-17" value="&lt;span style=&quot;text-align: left&quot;&gt;SelinuxInitialize&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="620" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-10" value="main.cpp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="200" width="80" height="20" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="580" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-11" value="first_stage_init.cpp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="225" y="200" width="140" height="20" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-19" value="1,LoadPolicy&lt;br&gt;2,保存结构到文件/sys/fs/selinux/checkreqprot" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="620" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-12" value="system/core/init" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="20" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="810" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-13" value="selinux.cpp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="500" y="190" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="oVrp1AIFAzBfgihcBw3G-14" value="init.cpp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="780" y="200" width="70" height="20" as="geometry" />
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-23" value="1,初始化mtklog&lt;br&gt;2,设置init进程的oom_adj&lt;br&gt;3,设置进程会话密钥环&lt;br&gt;4,属性服务初始化PropertyInit&lt;br&gt;5,挂载extra文件系统&lt;br&gt;6,加载init.rc&amp;nbsp;LoadBootScripts&lt;br&gt;7," style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="785" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
