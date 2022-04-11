@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T07:31:07.176Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="vo6KpmDCKfOs9qrSnGrV" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T07:59:56.705Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="nGch0OrSu6K6GAoe3T5S" version="17.4.2" type="github">
   <diagram id="JZRc0-2f4Ee6M4zPl6Xn" name="Page-1">
     <mxGraphModel dx="2182" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,6 +97,15 @@
         <mxCell id="BCxCC7PzXmVnHcrhx9WZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BCxCC7PzXmVnHcrhx9WZ-1" target="BCxCC7PzXmVnHcrhx9WZ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BCxCC7PzXmVnHcrhx9WZ-1" target="BCxCC7PzXmVnHcrhx9WZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BCxCC7PzXmVnHcrhx9WZ-1" target="BCxCC7PzXmVnHcrhx9WZ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BCxCC7PzXmVnHcrhx9WZ-1" target="BCxCC7PzXmVnHcrhx9WZ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BCxCC7PzXmVnHcrhx9WZ-1" value="PropertyInit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="730" width="80" height="20" as="geometry" />
         </mxCell>
@@ -166,6 +175,39 @@
         </mxCell>
         <mxCell id="BCxCC7PzXmVnHcrhx9WZ-24" value="/dev/__properties__/property_info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1170" y="915" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1146" y="350" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-26" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="BCxCC7PzXmVnHcrhx9WZ-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="49.5" as="sourcePoint" />
+            <mxPoint x="90" y="49.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="BCxCC7PzXmVnHcrhx9WZ-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint x="90" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-29" value="：函数调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BCxCC7PzXmVnHcrhx9WZ-31">
+          <mxGeometry x="84" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-30" value="：数据流向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BCxCC7PzXmVnHcrhx9WZ-31">
+          <mxGeometry x="84" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-32" value="__system_property_area_init" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="980" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-35" value="PropertyInfoAreaFile::LoadDefaultPath()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1030" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-39" value="：判断//dev/__properties__/property_info中的数据是否正常" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1030" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BCxCC7PzXmVnHcrhx9WZ-40" value="ProcessKernelDt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1070" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
