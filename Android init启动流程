@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T11:13:21.133Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="b5YYX-SFsCMyQ9_Szps3" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-11T03:19:05.875Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="jc7WYniOr-OPKE3V2qUG" version="17.4.0" type="github">
   <diagram id="JZRc0-2f4Ee6M4zPl6Xn" name="Page-1">
     <mxGraphModel dx="2182" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,14 +79,20 @@
         <mxCell id="ZkkCYOD8dUmzHxpQoQWX-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="142.5" y="810" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-23" value="1,初始化mtklog&lt;br&gt;2,设置init进程的oom_adj&lt;br&gt;3,设置进程会话密钥环&lt;br&gt;4,属性服务初始化PropertyInit&lt;br&gt;5,挂载extra文件系统&lt;br&gt;6,信号监听(SIGCHLD)和事件监听初始化&lt;br&gt;7,启动属性服务&lt;br&gt;8,加载init.rc&amp;nbsp;LoadBootScripts&lt;br&gt;9,执行init.rc" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-23" value="1,初始化mtklog&lt;br&gt;2,设置init进程的oom_adj&lt;br&gt;3,设置进程会话密钥环&lt;br&gt;4,属性服务初始化PropertyInit&lt;br&gt;5,挂载extra文件系统&lt;br&gt;6,信号监听(SIGCHLD)和事件监听初始化&lt;br&gt;7,启动属性服务&amp;nbsp;&amp;nbsp;StartPropertyService&lt;br&gt;8,加载init.rc&amp;nbsp; LoadBootScripts&lt;br&gt;9,执行init.rc" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="805" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZkkCYOD8dUmzHxpQoQWX-24" value="加载和执行init.rc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="840" width="120" height="40" as="geometry" />
+          <mxGeometry x="520" y="930" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZkkCYOD8dUmzHxpQoQWX-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="800" width="20" height="120" as="geometry" />
+          <mxGeometry x="640" y="740" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-26" value="&lt;span style=&quot;text-align: left&quot;&gt;StartPropertyService&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkkCYOD8dUmzHxpQoQWX-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="890" width="20" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
